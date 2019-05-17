@@ -33,6 +33,7 @@ public struct Purchase {
     public let transaction: PaymentTransaction
     public let originalTransaction: PaymentTransaction?
     public let needsFinishTransaction: Bool
+    public let payment: SKPayment
 }
 
 // Purchased product
